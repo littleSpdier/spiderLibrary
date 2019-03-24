@@ -23,11 +23,6 @@ public class MainActivity extends AppCompatActivity {
         params.put("pwd", "123456");
         params.put("loginType", "1");
 
-        ParamsBean paramsBean = new ParamsBean();
-        paramsBean.setUserName("15172144011");
-        paramsBean.setPwd("123456");
-        paramsBean.setDeviceId("0");
-        paramsBean.setLoginType("1");
         OkRequestUtil.getInstance().sendPost(url,params);
     }
 
