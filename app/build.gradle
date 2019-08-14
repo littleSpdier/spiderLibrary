@@ -33,4 +33,5 @@ dependencies {
         force = true
     }
     implementation project(':mylibrary')
+//    implementation project(':library')
 }
